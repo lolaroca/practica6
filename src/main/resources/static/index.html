@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TODO's</title>
+
+        <link rel="stylesheet" href="./libs/bootstrap.css">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="container-fluid" id="container">
+            <div class="row" id="header">
+                <div class="col">
+
+                    <div class="row">
+                        <div class="col-8">
+                            <input type="text" name="todo" id="todo" placeholder="¿Qué quieres hacer?">
+                        </div>
+                        <div class="col-4">
+                            <button id="add" class="btn btn-primary">Añadir</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row" id="tasks-container">
+                <div class="col" id="task-none">
+                    <img src="./assets/nothing.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col" id="tasks">
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="./libs/jquery.js"></script>
+    <script src="./libs/bootstrap.js"></script>
+    <script src="./index.js"></script>
+</html>
